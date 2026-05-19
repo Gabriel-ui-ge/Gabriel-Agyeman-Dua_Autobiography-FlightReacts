@@ -16,8 +16,8 @@ body {
 }
 
 header {
-    height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('LegacyFlight.jpg') center/cover;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hq720.jpg') center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@ header {
 }
 
 nav {
-     position: fixed;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 20px 50px;
@@ -55,8 +55,8 @@ nav {
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid var(--primary);
