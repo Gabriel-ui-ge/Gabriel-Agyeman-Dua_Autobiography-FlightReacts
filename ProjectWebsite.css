@@ -1,0 +1,70 @@
+:root {
+    --primary: #ff4d4d;
+    --bg: #0f0f0f;
+    --text: #ffffff;
+    --secondary: #1a1a1a;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('LegacyFlight.jpg') center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+     position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.8);
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#cta-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: var(--primary);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary);
+    display: block;
+    margin: -100px auto 30px auto;
+}
+
+section { margin-bottom: 60px; padding: 20px; background: var(--secondary); border-radius: 10px; }
+h2 { color: var(--primary); margin-bottom: 15px; text-transform: uppercase; }
+
+footer { text-align: center; padding: 40px; font-size: 0.8rem; color: #666; }
