@@ -54,16 +54,6 @@ nav {
     border-radius: 5px;
 }
 
-.profile-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid var(--primary);
-    display: block;
-    margin: -100px auto 30px auto;
-}
-
 .fade-in {
     opacity: 0;
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
