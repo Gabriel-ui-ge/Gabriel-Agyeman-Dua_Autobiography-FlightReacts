@@ -74,7 +74,7 @@ nav {
     transform: translateY(0);
   }
   
-section { margin-bottom: 60px; padding: 20px; background: var(--secondary); border-radius: 10px; }
+section { margin-bottom: 60px; padding: 20px; border-radius: 10px; }
 h2 { color: var(--primary); margin-bottom: 15px; text-transform: uppercase; }
 
 footer { text-align: center; padding: 40px; font-size: 0.8rem; color: #666; }
